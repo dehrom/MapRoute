@@ -1,0 +1,19 @@
+PODS:
+  - Dip (5.0.4)
+  - Dip-UI (1.0.2):
+    - Dip (~> 5.0)
+  - SwiftyJSON (3.1.3)
+
+DEPENDENCIES:
+  - Dip (~> 5.0)
+  - Dip-UI (~> 1.0.2)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Dip: 6460091adcf84ae8765f4927b85b49e6a3b67bfe
+  Dip-UI: 7f03e0bc332fdda3cdf1d9a05125e5f30374dff1
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+
+PODFILE CHECKSUM: 150985cff369936a8e06c0c0fc3afc508dfe1ec6
+
+COCOAPODS: 1.1.1
