@@ -92,7 +92,3 @@ extension CoordinatesPresenter {
     }
     
 }
-
-class CustomPolyline: MKPolyline {
-    var color: UIColor?
-}

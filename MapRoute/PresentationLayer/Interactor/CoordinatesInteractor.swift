@@ -49,11 +49,7 @@ extension CoordinatesInteractor {
         
         directions.calculate { (response, error) in
             guard let response = response else {
-                if error != nil {
-                    handler(nil, error)
-                } else {
-                    handler(nil, nil)
-                }
+                handler(nil, error)
                 return
             }
             

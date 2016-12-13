@@ -18,7 +18,7 @@ class DataProvider {
             let data = fileContent.data(using: .utf8)
             handler(data)
         } else {
-            handler(Data())
+            handler(nil)
         }
     }
     
