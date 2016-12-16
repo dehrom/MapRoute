@@ -10,6 +10,7 @@ import Foundation
 import SwiftyJSON
 
 class JSONToCoordinateModelMapper: IMapper {
+    
     typealias T = [String: JSON]
     typealias R = CoordinatesModel
     

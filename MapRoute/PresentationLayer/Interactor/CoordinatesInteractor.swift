@@ -20,8 +20,8 @@ extension CoordinatesInteractor {
 
     // Загрузка списка координат из сервиса
     func loadCoordinates() {
-        service.loadCoordinates { [weak self] model in
-            self?.presenter.coordinatesDidLoad(model: model)
+        service.loadCoordinates { model in
+            self.presenter.coordinatesDidLoad(model: model)
         }
     }
     

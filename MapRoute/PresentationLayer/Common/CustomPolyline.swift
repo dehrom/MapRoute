@@ -11,5 +11,7 @@ import UIKit
 import MapKit
 
 class CustomPolyline: MKPolyline {
+    
     var color: UIColor?
+    
 }

@@ -54,7 +54,7 @@ class Point: NSObject, MKAnnotation {
     
     override var hashValue: Int {
         get {
-            return "\(lat),\(lng),\(date),\(speed)".hashValue
+            return hash
         }
     }
     
